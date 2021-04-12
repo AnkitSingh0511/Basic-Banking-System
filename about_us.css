@@ -1,0 +1,28 @@
+
+#image{
+    width:100%;
+    border-radius:50%;
+    margin:15px 15px 3px 3px;
+    position:center bottom;
+    }
+    
+    .wd h1{
+    font-family:latha;
+    }
+    
+    .footer {
+        padding-top: 13px;
+        padding-bottom: 5px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      height: 20px;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    
+    
+    

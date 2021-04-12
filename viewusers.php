@@ -55,6 +55,9 @@
           <li class="nav-item">
             <a class="nav-link" href="transactionDetails.php">Transaction History</a>
           </li>
+          <li class="nav-item">
+              <a class="nav-link" href="team.html">About</a>
+            </li>
   </nav>
 
 

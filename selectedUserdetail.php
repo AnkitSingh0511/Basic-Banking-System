@@ -17,10 +17,12 @@ if (isset($_POST['submit'])) {
 
   if ($amnt > $sql1['credits']) {
 
-    echo '<script type="text/javascript">';
-    echo ' alert("Insufficient Balance")';
-    echo '</script>';
-  } else if ($amnt == 0) {
+    echo "<script type='text/javascript'>
+     alert('Insufficient Balance');
+     
+    </script>";
+  } 
+  else if ($amnt == 0) {
     echo "<script type='text/javascript'>
     alert('Enter Amount Greater than Zero');
     </script>";
@@ -103,6 +105,9 @@ if (isset($_POST['submit'])) {
           <li class="nav-item">
             <a class="nav-link" href="transactionDetails.php">Transaction History</a>
           </li>
+          <li class="nav-item">
+              <a class="nav-link" href="team.html">About</a>
+            </li>
   </nav>
 
   <div class="container">
